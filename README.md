@@ -1,23 +1,25 @@
-## SB Admin v2.0 rewritten in AngularJS
+## 为Rapid4j准备的AngularJS Admin前端
 
-This project is a port of the famous Free Admin Bootstrap Theme [SB Admin v2.0](http://startbootstrap.com/template-overviews/sb-admin-2/) to Angular Theme.
+模版主题来自这里 [SB Admin v2.0](http://startbootstrap.com/template-overviews/sb-admin-2/).
 
-auth idea from http://brewhouse.io/blog/2014/12/09/authentication-made-simple-in-single-page-angularjs-applications.html
-Find out more [Free Angular Themes at StartAngular.com](http://www.startangular.com/).
+Angular前端权限管理参考[这里](http://brewhouse.io/blog/2014/12/09/authentication-made-simple-in-single-page-angularjs-applications.html)
 
-## Installation
-1. Clone this project or Download that ZIP file
-2. Make sure you have [bower](http://bower.io/), [grunt-cli](https://www.npmjs.com/package/grunt-cli) and  [npm](https://www.npmjs.org/) installed globally
-3. On the command prompt run the following commands
+
+## 快速体验
+1. Clone项目或者下载ZIP压缩包
+2. 确定自己已经全局(`-g`)安装了 [bower](http://bower.io/), [grunt-cli](https://www.npmjs.com/package/grunt-cli)和 [npm](https://www.npmjs.org/) 
+3. 依次执行以下命令
 - cd `project-directory`
-- `npm install` - bower install is ran from the postinstall
-- `npm start` - a shortcut for `grunt serve`
-- `npm run dist` - a shortcut for `grunt serve:dist` to minify the files for deployment
+- `npm install` - 事先要安装bower
+- `npm start` - 等同于 `grunt serve`
+- `npm run dist` - 等同于 `grunt serve:dist` ,压缩文件准备部署
 
-## Roadmap
+## 路线图
 
-- Add sample AJAX calls and make the directives more modular
+- Angular权限控制
+- Angular统一拦截器管理ajax调用
+- 与Rapid4J集成
 
-### Automation tools
+### 管理工具
 
 - [Grunt](http://gruntjs.com/)
